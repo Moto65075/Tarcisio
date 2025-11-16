@@ -1,10 +1,6 @@
-#ifndef BUTTON_H
-#define BUTTON_H
-
 #include <Arduino.h>
 #include "../Utils/TarDefs.h"
-
-void typeButtonPress();
+#include "Button.h"
 
 void typeButtonPress() {
   if (buttonState == LOW && lastButtonState == HIGH) {

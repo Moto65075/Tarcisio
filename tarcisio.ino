@@ -1,3 +1,4 @@
+#include <esp_sleep.h>
 #include <Arduino.h>
 #include "Utils\TarDefs.h"
 #include "Drivers\Leds.h"
